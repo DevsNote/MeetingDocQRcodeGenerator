@@ -8,13 +8,6 @@ return [
             'password' => '@min11242',
             'charset' => 'utf8',
         ],
-        'db_pg' => [
-            'class' => 'yii\db\Connection',
-            'dsn' => 'pgsql:host=192.168.16.1;port=5432;dbname=11242', // PostgreSQL
-            'username' => 'postgres',
-            'password' => 'postgres',
-            'charset' => 'utf8',
-        ],
         'mailer' => [
             'class' => 'yii\swiftmailer\Mailer',
             'viewPath' => '@common/mail',
