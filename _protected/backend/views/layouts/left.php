@@ -32,7 +32,7 @@
                 'items' => [
                     ['label' => 'Menu Yii2', 'options' => ['class' => 'header']],
                     ['label' => 'Dashboard', 'icon' => 'dashboard', 'url' => ['#']],
-                    ['label' => 'ข่าวประชาสัมพันธ์', 'icon' => 'trophy', 'url' => ['/news/news']],
+                    ['label' => 'อัพโหลดเอกสาร', 'icon' => 'trophy', 'url' => ['/news/news']],
                     
                     ['label' => 'Gii', 'icon' => 'file-code-o', 'url' => ['/gii']],
                     ['label' => 'Debug', 'icon' => 'dashboard', 'url' => ['/debug']],

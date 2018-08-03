@@ -27715,3 +27715,167 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1530851676.468
     'REQUEST_TIME' => 1530851676
 ]
+2018-08-03 10:58:04 [::1][-][pnkfp48e8sdok76ots1lhkvq26][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: E:\WebServer\xampp\htdocs\MeetingDocQRcodeGenerator\_protected\common/translations/th_TH/yii.php Fallback file does not exist as well: E:\WebServer\xampp\htdocs\MeetingDocQRcodeGenerator\_protected\common/translations/th/yii.php
+2018-08-03 10:58:04 [::1][-][pnkfp48e8sdok76ots1lhkvq26][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "undefined".' in E:\WebServer\xampp\htdocs\MeetingDocQRcodeGenerator\_protected\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\WebServer\xampp\htdocs\MeetingDocQRcodeGenerator\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('undefined', Array)
+#1 E:\WebServer\xampp\htdocs\MeetingDocQRcodeGenerator\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\WebServer\xampp\htdocs\MeetingDocQRcodeGenerator\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\WebServer\xampp\htdocs\MeetingDocQRcodeGenerator\_protected\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\WebServer\xampp\htdocs\MeetingDocQRcodeGenerator\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\WebServer\xampp\htdocs\MeetingDocQRcodeGenerator\index.php(18): yii\base\Application->run()
+#2 {main}
+2018-08-03 10:58:04 [::1][-][pnkfp48e8sdok76ots1lhkvq26][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: E:\WebServer\xampp\htdocs\MeetingDocQRcodeGenerator\_protected\common/translations/th_TH/app.php Fallback file does not exist as well: E:\WebServer\xampp\htdocs\MeetingDocQRcodeGenerator\_protected\common/translations/th/app.php
+    in E:\WebServer\xampp\htdocs\MeetingDocQRcodeGenerator\_protected\frontend\views\site\error.php:20
+2018-08-03 10:58:04 [::1][-][pnkfp48e8sdok76ots1lhkvq26][info][application] $_GET = [
+    '1533268684071' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'pnkfp48e8sdok76ots1lhkvq26'
+    '_identity' => '40f088521dd55c10f312120a57a091c0a23c8ece1df70a7a5b771ad11bbced4da:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"uls2ZJKXBFP8Pi2GcTf9XfZMLiqELLRK\",2592000]\";}'
+    '_csrf' => '811a5a2b42dc6f0c9eb5c76d5cfc38af004155e813e2dce70559653fedd6191ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"i_Iw5RjDus7F4YS1X1Bp5lODE7WPVd4a\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'E:/WebServer/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'E:/WebServer/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'E:/WebServer/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/WebServer/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8000/MeetingDocQRcodeGenerator/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=pnkfp48e8sdok76ots1lhkvq26; _identity=40f088521dd55c10f312120a57a091c0a23c8ece1df70a7a5b771ad11bbced4da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22uls2ZJKXBFP8Pi2GcTf9XfZMLiqELLRK%22%2C2592000%5D%22%3B%7D; _csrf=811a5a2b42dc6f0c9eb5c76d5cfc38af004155e813e2dce70559653fedd6191ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22i_Iw5RjDus7F4YS1X1Bp5lODE7WPVd4a%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Natthaphon\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Users\\Natthaphon\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\Natthaphon\\AppData\\Local\\atom\\bin;C:\\Users\\Natthaphon\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Natthaphon\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Program Files (x86)\\SSH Communications Security\\SSH Secure Shell'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 8000</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8000'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/WebServer/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/WebServer/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/WebServer/xampp/htdocs/MeetingDocQRcodeGenerator/index.php'
+    'REMOTE_PORT' => '55729'
+    'REDIRECT_QUERY_STRING' => '1533268684071'
+    'REDIRECT_URL' => 'http://localhost:8000/MeetingDocQRcodeGenerator/undefined?1533268684071'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '1533268684071'
+    'REQUEST_URI' => '/MeetingDocQRcodeGenerator/undefined?1533268684071'
+    'SCRIPT_NAME' => '/MeetingDocQRcodeGenerator/index.php'
+    'PHP_SELF' => '/MeetingDocQRcodeGenerator/index.php'
+    'REQUEST_TIME_FLOAT' => 1533268684.072
+    'REQUEST_TIME' => 1533268684
+]
+2018-08-03 10:58:53 [::1][-][pnkfp48e8sdok76ots1lhkvq26][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: E:\WebServer\xampp\htdocs\MeetingDocQRcodeGenerator\_protected\common/translations/th_TH/yii.php Fallback file does not exist as well: E:\WebServer\xampp\htdocs\MeetingDocQRcodeGenerator\_protected\common/translations/th/yii.php
+2018-08-03 10:58:53 [::1][-][pnkfp48e8sdok76ots1lhkvq26][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "undefined".' in E:\WebServer\xampp\htdocs\MeetingDocQRcodeGenerator\_protected\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\WebServer\xampp\htdocs\MeetingDocQRcodeGenerator\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('undefined', Array)
+#1 E:\WebServer\xampp\htdocs\MeetingDocQRcodeGenerator\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\WebServer\xampp\htdocs\MeetingDocQRcodeGenerator\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\WebServer\xampp\htdocs\MeetingDocQRcodeGenerator\_protected\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\WebServer\xampp\htdocs\MeetingDocQRcodeGenerator\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\WebServer\xampp\htdocs\MeetingDocQRcodeGenerator\index.php(18): yii\base\Application->run()
+#2 {main}
+2018-08-03 10:58:53 [::1][-][pnkfp48e8sdok76ots1lhkvq26][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: E:\WebServer\xampp\htdocs\MeetingDocQRcodeGenerator\_protected\common/translations/th_TH/app.php Fallback file does not exist as well: E:\WebServer\xampp\htdocs\MeetingDocQRcodeGenerator\_protected\common/translations/th/app.php
+    in E:\WebServer\xampp\htdocs\MeetingDocQRcodeGenerator\_protected\frontend\views\site\error.php:20
+2018-08-03 10:58:53 [::1][-][pnkfp48e8sdok76ots1lhkvq26][info][application] $_GET = [
+    '1533268733125' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'pnkfp48e8sdok76ots1lhkvq26'
+    '_identity' => '40f088521dd55c10f312120a57a091c0a23c8ece1df70a7a5b771ad11bbced4da:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"uls2ZJKXBFP8Pi2GcTf9XfZMLiqELLRK\",2592000]\";}'
+    '_csrf' => '811a5a2b42dc6f0c9eb5c76d5cfc38af004155e813e2dce70559653fedd6191ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"i_Iw5RjDus7F4YS1X1Bp5lODE7WPVd4a\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'E:/WebServer/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'E:/WebServer/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'E:/WebServer/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'E:/WebServer/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8000'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8000/MeetingDocQRcodeGenerator/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=pnkfp48e8sdok76ots1lhkvq26; _identity=40f088521dd55c10f312120a57a091c0a23c8ece1df70a7a5b771ad11bbced4da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22uls2ZJKXBFP8Pi2GcTf9XfZMLiqELLRK%22%2C2592000%5D%22%3B%7D; _csrf=811a5a2b42dc6f0c9eb5c76d5cfc38af004155e813e2dce70559653fedd6191ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22i_Iw5RjDus7F4YS1X1Bp5lODE7WPVd4a%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Natthaphon\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Users\\Natthaphon\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\Natthaphon\\AppData\\Local\\atom\\bin;C:\\Users\\Natthaphon\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Natthaphon\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Program Files (x86)\\SSH Communications Security\\SSH Secure Shell'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 8000</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8000'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/WebServer/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/WebServer/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/WebServer/xampp/htdocs/MeetingDocQRcodeGenerator/index.php'
+    'REMOTE_PORT' => '55803'
+    'REDIRECT_QUERY_STRING' => '1533268733125'
+    'REDIRECT_URL' => 'http://localhost:8000/MeetingDocQRcodeGenerator/undefined?1533268733125'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '1533268733125'
+    'REQUEST_URI' => '/MeetingDocQRcodeGenerator/undefined?1533268733125'
+    'SCRIPT_NAME' => '/MeetingDocQRcodeGenerator/index.php'
+    'PHP_SELF' => '/MeetingDocQRcodeGenerator/index.php'
+    'REQUEST_TIME_FLOAT' => 1533268733.128
+    'REQUEST_TIME' => 1533268733
+]
